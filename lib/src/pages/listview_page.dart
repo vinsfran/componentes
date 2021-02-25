@@ -58,7 +58,6 @@ class _ListViewPageState extends State<ListViewPage> {
         return FadeInImage(
           image: NetworkImage('https://picsum.photos/500/300/?image=$imagen'),
           placeholder: AssetImage('assets/images/jar-loading.gif'),
-          fadeInDuration: Duration(milliseconds: 200),
         );
       },
     );
